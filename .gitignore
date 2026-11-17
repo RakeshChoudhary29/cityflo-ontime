@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.claude/settings.local.json
+.env
+*.jsonl.bak
+session*.jsonl
+# personal setup notes (local paths) and the Cityflo bundle (not ours to republish)
+README.md
+data/

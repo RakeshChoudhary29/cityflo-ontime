@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python:*)",
+      "Bash(python -P:*)",
+      "Bash(pip install:*)",
+      "Bash(git status:*)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)",
+      "Bash(git add:*)",
+      "Bash(head:*)",
+      "Bash(wc:*)",
+      "Bash(ls:*)",
+      "Read(./**)",
+      "Edit(./server/**)",
+      "Edit(./DECISION.md)",
+      "Edit(./decisions.jsonl)",
+      "Write(./server/**)",
+      "mcp__ontime__*"
+    ],
+    "deny": [
+      "Edit(./data/**)",
+      "Write(./data/**)",
+      "Read(~/.claude.json)",
+      "Bash(git push --force:*)"
+    ]
+  },
+  "enableAllProjectMcpServers": true
+}
